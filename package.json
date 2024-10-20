@@ -1,5 +1,5 @@
 {
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"name": "@jael-env/aws_secrets_manager",
 	"description": "Just another env loader aws secrets manager extension",
 	"author": "",
@@ -14,7 +14,7 @@
 	},
 	"license": "BSD-3-Clause",
 	"files": [
-		"src/**/*",
+		"dist/**/*",
 		"CHANGELOG.md"
 	],
 	"main": "dist/index.js",
@@ -23,7 +23,8 @@
 	},
 	"funding": "",
 	"dependencies": {
-		"@jael-env/core": "^0.0.1"
+		"@aws-sdk/client-secrets-manager": "^3.675.0",
+		"@jael-env/core": "^0.0.3"
 	},
 	"devDependencies": {
 		"@types/node": "^22.7.5",
